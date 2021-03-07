@@ -43,8 +43,8 @@ html(lang="en")
     link(rel='stylesheet', href='./js/slick-theme.css')
     link(rel='stylesheet', href='./css/add.min.css?v0')
   body
-    .bx-wrapper#bx_eshop_wrap(style='margin-top: 0px;')
-      header.bx-header(style="background: #eee; height: 50px")
+    .bx-wrapper#bx_eshop_wrap(style='margin-top: 0px;').--test
+      header.bx-header(style="background: #eee;").--test
       .container
         .page_bredcumb
           .bx-breadcrumb(itemscope itemtype='http://schema.org/BreadcrumbList')
@@ -66,95 +66,166 @@ html(lang="en")
         h1.bx-title.dbg_title#pagetitle Наши салоны в Москве
       .workarea
         .container.bx-content-seection
-          .row
-            .col-xs-12
 
-              // Contacts
-              .contacts
-                .contacts__block
-                  .contacts__block-wrapper
-                    .div1
-                      .contacts__block-title 
-                        span г. Москва, м.Смоленская, Смоленская площадь, д.3, 
-                        b ТДЦ "Смоленский Пассаж", 
-                        span цокольный этаж
-                      .contacts__block-address
-                        .contacts__block-row
-                          .div Телефон:
-                          .div
-                            a(href="tel:")
-                              b +7 (495) 926-29-86
-                        .contacts__block-row
-                          .div What`sApp: 
-                          .div
-                            a(href="#!")
-                              b +7 985 700-88-04
-                        .contacts__block-row
-                          .div Режим работы: 
-                          .div
-                            b ежедневно с 10 до 21
-                      .contacts__block-btns
-                        .div
-                          a(href="#!").link-map Посмотреть на карте
-                        .div
-                          a(href="#!").link-catalog Посмотреть ассортимент салона
-                    .div2
-                      .contacts__carousel
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                .contacts__block
-                  .contacts__block-wrapper
-                    .div1
-                      .contacts__block-title 
-                        span г. Москва, м.Проспект Вернадского/Калужская, Ленинский Проспект, д. 109
-                        b ТРЦ "Рио", 
-                        span цокольный этаж, Riviera Maison
-                      .contacts__block-address
-                        .contacts__block-row
-                          .div Телефон:
-                          .div
-                            a(href="tel:")
-                              b +7 (495) 926-29-86
-                        .contacts__block-row
-                          .div What`sApp: 
-                          .div
-                            a(href="#!")
-                              b +7 985 700-88-04
-                        .contacts__block-row
-                          .div Режим работы: 
-                          .div
-                            b ежедневно с 10 до 21
-                      .contacts__block-btns
-                        .div
-                          a(href="#!").link-map Посмотреть на карте
-                        .div
-                          a(href="#!").link-catalog Посмотреть ассортимент салона
-                    .div2
-                      .contacts__carousel
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-2.png", alt="").img-responsive
-                        .contacts__carousel-block
-                          img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+          // Contacts
+          .contacts
+            .contacts__block
+              .contacts__block-wrapper
+                .div1
+                  .contacts__block-title 
+                    span г. Москва, м.Смоленская, Смоленская площадь, д.3, 
+                    b ТДЦ "Смоленский Пассаж", 
+                    span цокольный этаж
+                  .contacts__block-address
+                    .contacts__block-row
+                      .div Телефон:
+                      .div
+                        a(href="tel:")
+                          b +7 (495) 926-29-86
+                    .contacts__block-row
+                      .div What`sApp: 
+                      .div
+                        a(href="#!")
+                          b +7 985 700-88-04
+                    .contacts__block-row
+                      .div Режим работы: 
+                      .div
+                        b ежедневно с 10 до 21
+                  .contacts__block-btns
+                    .div
+                      a(href="#!").link-map Посмотреть на карте
+                    .div
+                      a(href="#!").link-catalog Посмотреть ассортимент салона
+                .div2
+                  .contacts__carousel
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+            .contacts__block
+              .contacts__block-wrapper
+                .div1
+                  .contacts__block-title 
+                    span г. Москва, м.Проспект Вернадского/Калужская, Ленинский Проспект, д. 109
+                    b ТРЦ "Рио", 
+                    span цокольный этаж, Riviera Maison
+                  .contacts__block-address
+                    .contacts__block-row
+                      .div Телефон:
+                      .div
+                        a(href="tel:")
+                          b +7 (495) 926-29-86
+                    .contacts__block-row
+                      .div What`sApp: 
+                      .div
+                        a(href="#!")
+                          b +7 985 700-88-04
+                    .contacts__block-row
+                      .div Режим работы: 
+                      .div
+                        b ежедневно с 10 до 21
+                  .contacts__block-btns
+                    .div
+                      a(href="#!").link-map Посмотреть на карте
+                    .div
+                      a(href="#!").link-catalog Посмотреть ассортимент салона
+                .div2
+                  .contacts__carousel
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-2.png", alt="").img-responsive
+                    .contacts__carousel-block
+                      img(src="./tmp/contacts-img-1.png", alt="").img-responsive
+        
+          // Map address
+          .map-address
+            .div1 
+              .map-address__title Найти ближайший магазин
+            .div2 
+              form(action="#!").map-address__form
+                input(type="text" value="Россия, Москва, улица Пришвина, 26 ").map-address__form-input
+                select.map-address__form-select
+                  option(value="") ТДЦ "Смоленский Пассаж" 1
+                  option(value="") ТДЦ "Смоленский Пассаж" 2
+                  option(value="") ТДЦ "Смоленский Пассаж" 2 22232 23 23
+                button(type="submit").map-address__form-btn 
+                  span Построить маршрут
+                  svg(width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg')
+                    path(d='M18.6833 14.4937H7.27606C6.69855 14.4937 6.22852 14.0233 6.22852 13.4445C6.22852 12.8662 6.69855 12.3958 7.27606 12.3958H11.6032L10.6902 11.1653H7.27606C6.02016 11.1653 4.99805 12.1878 4.99805 13.4445C4.99805 14.7017 6.02016 15.7242 7.27606 15.7242H18.6833C19.2826 15.7242 19.7702 16.2123 19.7702 16.8127C19.7702 17.4132 19.2826 17.9013 18.6833 17.9013H6.1432C6.20936 18.2951 6.21375 18.7121 6.1432 19.1317H18.6833C19.961 19.1317 21.0007 18.0916 21.0007 16.8127C21.0007 15.5339 19.961 14.4937 18.6833 14.4937Z' fill='white')
+                    path(d='M2.48165 16.0332C1.11329 16.0332 0 17.1473 0 18.5166C0 19.886 1.11329 21 2.48165 21C3.85001 21 4.9633 19.8859 4.9633 18.5166C4.9633 17.1473 3.85001 16.0332 2.48165 16.0332ZM2.48165 19.7695C1.79177 19.7695 1.23047 19.2074 1.23047 18.5166C1.23047 17.8258 1.79177 17.2637 2.48165 17.2637C3.17153 17.2637 3.73283 17.8258 3.73283 18.5166C3.73283 19.2074 3.17153 19.7695 2.48165 19.7695Z' fill='white')
+                    path(d='M13.381 5.31199C13.7203 5.31199 13.9964 5.03542 13.9964 4.69549C13.9964 4.35555 13.7203 4.07898 13.381 4.07898C13.0417 4.07898 12.7656 4.35555 12.7656 4.69549C12.7656 5.03542 13.0417 5.31199 13.381 5.31199Z' fill='white')
+                    path(d='M12.9201 12.1061C13.1668 12.4386 13.667 12.4382 13.9119 12.1013L17.147 7.65097C19.5296 4.55425 17.3304 0 13.3816 0C9.45166 0 7.25651 4.5095 9.58254 7.60659C9.59436 7.6237 9.4353 7.40849 12.9201 12.1061ZM13.3816 2.84845C14.3994 2.84845 15.2274 3.67701 15.2274 4.69543C15.2274 5.71385 14.3994 6.5424 13.3816 6.5424C12.3638 6.5424 11.5357 5.71385 11.5357 4.69543C11.5357 3.67701 12.3638 2.84845 13.3816 2.84845Z' fill='white')
+
+        // Map
         #map.map
+        
         .container
+
+          // Partners
+          .partners
+            .partners__row
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-1.png", alt="")
+                  .partners__block-title г. Абакан, салон Инлавка, ул. Ленина 80
+                    div
+                      a(href="tel:") +7 (390) 222-35-23
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-2.png", alt="")
+                  .partners__block-title г. Севастополь, салон Инлавка, ул. Вакуленчука 29, ТРЦ Муссон
+                    div
+                      a(href="tel:") +7 (390) 222-35-23
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-3.png", alt="")
+                  .partners__block-title г. Сочи, салон Инлавка, ул. Лермонтова 3
+                    div
+                      a(href="tel:") +7 (918) 208-01-07
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-1.png", alt="")
+                  .partners__block-title г. Уфа, салон Инлавка, ул. Менделеева 158, 2 этаж, ТЦ "ВДНХ-ДОМ", 
+                    div
+                      a(href="tel:") +7 (917) 409-38-55
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-2.png", alt="")
+                  .partners__block-title г. Киров, ул. Ленина, 205, ТЦ Green haus , 2 этаж 
+                    div
+              div
+                .partners__block
+                  .partners__block-thumb 
+                    a(href="#!") 
+                      img(src="./tmp/partners-img-3.png", alt="")
+                  .partners__block-title г. Иркутск, Карла Маркса 40, Галерея Революция 2 этаж, магазин Tomma Home
+                    div
+                      a(href="tel:") +7 (3952) 610-433
 
           // Coffee
           .coffee
